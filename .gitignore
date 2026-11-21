@@ -1,0 +1,18 @@
+
+.venv/
+venv/
+node_modules/
+dist/
+__pycache__/
+*.pyc
+
+# Ignore dataset
+dataset/
+
+# Ignore uploaded images and prediction history
+backend/uploads/*
+data/prediction_history.jsonl
+
+# Environment files
+.env
+frontend/.env
